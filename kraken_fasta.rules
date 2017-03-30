@@ -1,4 +1,3 @@
-
 rule insert_kraken_taxid:
     input:
         config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.fna"
@@ -20,7 +19,7 @@ rule add_group_to_kraken_db:
         expand(
             config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.kraken.masked.fna",
             group=config['group'],
-            taxid=generate_list(config['group']+'/genome_urls.txt'))
+            taxid=generate_list(config['output_dir'] + '/' + config['group'] + '/genome_urls.txt'))
     run:
         for infile in input:
             print(infile)
