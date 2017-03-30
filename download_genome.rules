@@ -1,0 +1,57 @@
+rule assembly_summary:
+    output:
+        temp(config['output_dir'] + '/' + "{group}/assembly_summary.txt")
+    shell:
+        """
+        #mkdir -p config[output_dir]/{wildcards.group}
+        curl 'ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/{wildcards.group}/assembly_summary.txt' > {output}
+        """
+
+rule genome_urls:
+    input:
+        config['output_dir'] + '/' + "{group}/assembly_summary.txt"
+    output:
+        config['output_dir'] + '/' + "{group}/genome_urls.txt"
+    run:
+        header = []
+        with open(input[0]) as infile:
+            infile.readline() # skip garbage line
+            header = infile.readline().strip().split('\t')
+            csvfile = csv.DictReader(infile, fieldnames=header, delimiter='\t')
+            with open(output[0], 'w') as out:
+                writer = csv.DictWriter(
+                    out, fieldnames=['taxid', 'url'], delimiter='\t')
+                for row in csvfile:
+                    if row.get('ftp_path'):
+                        genome_url = convert_to_genome_path(row['ftp_path'])
+                        writer.writerow(
+                            {'taxid': row['taxid'], 'url':genome_url})
+
+rule download_genome:
+    input:
+        config['output_dir'] + '/' + "{group}/genome_urls.txt"
+    output:
+        config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.fna.gz"
+    run:
+        urls = csv.DictReader(open(input[0]), fieldnames=['taxid','url'], delimiter='\t')
+        for row in urls:
+            if row['taxid'] == wildcards.taxid:
+                shell("curl {row[url]} > {output}")
+                break
+
+rule gunzip:
+    input:
+        "{fname}.gz"
+    output:
+        "{fname}"
+    shell:
+        "gunzip {input}"
+
+rule download_group:
+    input:
+        config['output_dir'] + '/' + config['group']+"/genome_urls.txt",
+        expand(
+            config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.fna",
+            group=config['group'],
+            taxid=generate_list(config['output_dir'] + '/' + config['group'] + '/genome_urls.txt'))
+

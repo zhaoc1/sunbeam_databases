@@ -1,0 +1,27 @@
+
+rule insert_kraken_taxid:
+    input:
+        config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.fna"
+    output:
+        temp(config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.kraken.fna")
+    shell:
+        "sed -r 's/(>[^ ]*)/\\1|kraken:taxid|{wildcards.taxid} /' {input} > {output}"
+
+rule mask_lowercase:
+    input:
+        "{filename}.fna"
+    output:
+        "{filename}.masked.fna"
+    shell:
+        "dustmasker -in {input} -infmt fasta -outfmt fasta | sed -e '/>/!s/a\\|c\\|g\\|t/N/g' > {output}"
+
+rule add_group_to_kraken_db:
+    input:
+        expand(
+            config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.kraken.masked.fna",
+            group=config['group'],
+            taxid=generate_list(config['group']+'/genome_urls.txt'))
+    run:
+        for infile in input:
+            print(infile)
+            #shell("kraken-build --add-to-library {infile} --db {config[kraken_db]}")
