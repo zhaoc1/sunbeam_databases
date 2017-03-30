@@ -1,5 +1,6 @@
-# refseq_dl
+# refseq_kraken
 Download refseq genomes for a group using Snakemake
+Preprocess refseq sequences for kraken db format
 
 ## install
 ```sh
