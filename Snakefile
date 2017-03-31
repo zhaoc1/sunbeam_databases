@@ -7,8 +7,8 @@ from functions import *
 
 default_config = {
     'output_dir': '/home/chunyu',
-    'group': 'fungi',
-    'kraken_db': '/home/chunyu/krakendb/bacteria_20170330'
+    'group': 'bacteria',
+    'kraken_db': '/home/chunyu/krakendb/bacteria'
 }
 
 update_config(default_config, config)
