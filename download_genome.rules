@@ -1,6 +1,6 @@
 rule assembly_summary:
     output:
-        temp(config['output_dir'] + '/' + "{group}/assembly_summary.txt")
+        config['output_dir'] + '/' + "{group}/assembly_summary.txt"
     shell:
         """
         #mkdir -p config[output_dir]/{wildcards.group}
@@ -39,6 +39,18 @@ rule download_genome:
                 shell("curl {row[url]} > {output}")
                 break
 
+rule download_protein:
+    input:
+        config['output_dir'] + '/' + "{group}/genome_urls.txt"
+    output:
+        config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.faa.gz"
+    run:
+        urls = csv.DictReader(open(input[0]), fieldnames=['taxid','url'], delimiter='\t')
+        for row in urls:
+            if row['taxid'] == wildcards.taxid:
+                shell("curl {row[url]} > {output}")
+                break
+
 rule gunzip:
     input:
         "{fname}.gz"
@@ -51,7 +63,7 @@ rule download_group:
     input:
         config['output_dir'] + '/' + config['group']+"/genome_urls.txt",
         expand(
-            config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.fna",
+            config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.faa",
             group=config['group'],
             taxid=generate_list(config['output_dir'] + '/' + config['group'] + '/genome_urls.txt'))
 
