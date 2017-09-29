@@ -10,7 +10,7 @@ def convert_to_genome_path(ftp_path):
         return "{ftp}{name}/{name}_genomic.fna.gz".format(
             ftp=ftp, name=name)
 
-def convert_to_genome_path(ftp_path):
+def convert_to_genome_path_ptn(ftp_path):
     path = re.match(
         r'(ftp://ftp.ncbi.nlm.nih.gov/genomes/all/.*/)(GCF_.+)', ftp_path)
     if path:
@@ -22,7 +22,7 @@ def convert_to_genome_path(ftp_path):
 def generate_list(genome_urls_fp):
     if not Path(genome_urls_fp).exists():
         return []
-    urls = csv.DictReader(open(genome_urls_fp), fieldnames=['taxid','url'], delimiter='\t')
-    return [r['taxid'] for r in urls]
+    urls = csv.DictReader(open(genome_urls_fp), fieldnames=['taxid','assembly_accession','url'], delimiter='\t')
+    return [r['assembly_accession'] for r in urls]
 
 

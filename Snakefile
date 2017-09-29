@@ -6,7 +6,7 @@ from snakemake.utils import update_config
 from functions import *
 
 default_config = {
-    'output_dir': '/home/chunyu/refseq_downloaded/bsh_intercept',
+    'output_dir': '/home/chunyu/refseq_downloaded/cdiff_20170928', 
     'group': 'bacteria',
     'kraken_db': '/home/chunyu/refseq_downloaded/toRespublica_20170330/bacteriaGenomes/fungi'
 }
