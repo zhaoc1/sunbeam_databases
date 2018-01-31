@@ -24,9 +24,30 @@ rule genome_urls:
                     out, fieldnames=['taxid','assembly_accession', 'url'], delimiter='\t')
                 for row in csvfile:
                     if row.get('ftp_path'):
-                        genome_url = convert_to_genome_path(row['ftp_path'])
+                        genome_url  = convert_to_genome_path_ptn(row['ftp_path'])
+                        #genome_url = convert_to_genome_path(row['ftp_path'])
                         writer.writerow(
                             {'taxid': row['taxid'],'assembly_accession': row['assembly_accession'] ,'url':genome_url})
+
+rule genome_urls_species:
+    input:
+        "{group}/assembly_summary_species.txt"
+    output:
+        "{group}/genome_urls_species.txt"
+    run:
+        header = []
+        with open(input[0]) as infile:
+            infile.readline() # skip garbage line
+            header = infile.readline().strip().split('\t')
+            csvfile = csv.DictReader(infile, fieldnames=header, delimiter='\t')
+            with open(output[0], 'w') as out:
+                writer = csv.DictWriter(
+                    out, fieldnames=['taxid', 'url'], delimiter='\t')
+                for row in csvfile:
+                    if row.get('ftp_path'):
+                        genome_url = convert_to_genome_path(row['ftp_path'])
+                        writer.writerow(
+                            {'taxid': row['taxid'], 'url':genome_url})
 
 rule download_genome:
     input:
@@ -44,14 +65,14 @@ rule download_protein:
     input:
         config['output_dir'] + '/' + "{group}/genome_urls.txt"
     output:
-        config['output_dir'] + '/' + "{group}/{taxid}/{taxid}.faa.gz"
+        config['output_dir'] + '/' + "{group}/{acc}.faa.gz"
     run:
-        urls = csv.DictReader(open(input[0]), fieldnames=['taxid','url'], delimiter='\t')
+        urls = csv.DictReader(open(input[0]), fieldnames=['taxid','assembly_accession','url'], delimiter='\t')
         for row in urls:
-            if row['taxid'] == wildcards.taxid:
+            if row['assembly_accession'] == wildcards.acc:
                 shell("curl {row[url]} > {output}")
                 break
-
+"""
 rule gunzip:
     input:
         "{fname}.gz"
@@ -62,17 +83,17 @@ rule gunzip:
 
 rule rename:
     input:
-        "{fname}.fna"
+        "{fname}.faa" #<----
     output:
-        "{fname}.fasta"
+        "{fname}.fa"
     shell:
         "mv {input} {output}"
-
+"""
 rule download_group:
     input:
         config['output_dir'] + '/' + config['group']+"/genome_urls.txt",
         expand(
-            config['output_dir'] + '/' + "{group}/{acc}.fasta",
+            config['output_dir'] + '/' + "{group}/{acc}.fna.gz",
             group=config['group'],
             #taxid=ACCESSION_TAXON_DICT.values(),
             acc=generate_list(config['output_dir'] + '/' + config['group'] + '/genome_urls.txt'))
