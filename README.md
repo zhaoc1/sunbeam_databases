@@ -46,6 +46,8 @@ The output genomes are listed under `{group}/{accession}.fna.gz` or `{group}/{ac
 
 ## Build Kraken database
 
+- [kraken2](https://ccb.jhu.edu/software/kraken/MANUAL.html#installation) paper is under preparation. And to keep it consistent with [krakenhll](https://github.com/fbreitwieser/krakenhll), we decided to move on with [kraken1](http://ccb.jhu.edu/software/kraken/). 
+
 ```bash
 # Thrid, add seqeucnes to existing kraken db
 snakemake add_group_to_kraken_db
@@ -64,5 +66,4 @@ I selected the complete bai operon genes from 3 species: Clostridium hiranonis, 
 ### butyrate producing genes
 
 Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the list provided in [PMID: 24757212](https://www.ncbi.nlm.nih.gov/pubmed/?term=Revealing+the+Bacterial+Butyrate+Synthesis+Pathways+by+Analyzing+(Meta)genomic+Data), and saved in `dbs/butyrate_20180612.faa` and `dbs/butyrate_20180612.tsv`.
-
 
