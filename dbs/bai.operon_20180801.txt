@@ -1,0 +1,26 @@
+fig|500633.7.peg.70	Clostridium hiranonis DSM 13275	Bile acid 7-beta-dehydratase	baiI
+fig|500633.7.peg.72	Clostridium hiranonis DSM 13275	"Predicted transcriptional regulator for bile acid transformation, AraC family"	barA
+fig|500633.7.peg.73	Clostridium hiranonis DSM 13275	Bile acid-coenzyme A ligase (EC 6.2.1.7)	baiB
+fig|500633.7.peg.74	Clostridium hiranonis DSM 13275	NAD(H)-dependent 7-alpha-hydroxy-3-oxo-delta4-cholenoic acid oxidoreductase	baiCD
+fig|500633.7.peg.75	Clostridium hiranonis DSM 13275	Bile acid 7-alpha dehydratase (EC 4.2.1.106)	baiE
+fig|500633.7.peg.76	Clostridium hiranonis DSM 13275	NAD(P)-dependent 3-alpha-hydroxysteroid dehydrogenase	baiA
+fig|500633.7.peg.77	Clostridium hiranonis DSM 13275	Bile acid CoA-transferase (EC 2.8.3.25)	baiF
+fig|500633.7.peg.78	Clostridium hiranonis DSM 13275	"Bile acids transporter, MFS family"	baiG
+fig|500633.7.peg.79	Clostridium hiranonis DSM 13275	NAD(H)-dependent 7-beta-hydroxy-3-oxo-delta4-cholenoic acid oxidoreductase	baiH
+fig|411468.9.peg.2913	Clostridium scindens ATCC 35704	"Predicted transcriptional regulator for bile acid transformation, AraC family"	barA
+fig|411468.9.peg.2911	Clostridium scindens ATCC 35704	Bile acid-coenzyme A ligase (EC 6.2.1.7)	baiB
+fig|411468.9.peg.2910	Clostridium scindens ATCC 35704	NAD(H)-dependent 7-alpha-hydroxy-3-oxo-delta4-cholenoic acid oxidoreductase	baiCD
+fig|411468.9.peg.2909	Clostridium scindens ATCC 35704	Bile acid 7-alpha dehydratase (EC 4.2.1.106)	baiE
+fig|411468.9.peg.2908	Clostridium scindens ATCC 35704	NAD(P)-dependent 3-alpha-hydroxysteroid dehydrogenase	baiA
+fig|411468.9.peg.2907	Clostridium scindens ATCC 35704	Bile acid CoA-transferase (EC 2.8.3.25)	baiF
+fig|411468.9.peg.2906	Clostridium scindens ATCC 35704	"Bile acids transporter, MFS family"	baiG
+fig|411468.9.peg.2905	Clostridium scindens ATCC 35704	NAD(H)-dependent 7-beta-hydroxy-3-oxo-delta4-cholenoic acid oxidoreductase	baiH
+fig|411468.9.peg.2904	Clostridium scindens ATCC 35704	Bile acid 7-beta-dehydratase	baiI
+fig|553973.6.peg.2103	Clostridium hylemonae DSM 15053	"Predicted transcriptional regulator for bile acid transformation, AraC family"	barA
+fig|553973.6.peg.2105	Clostridium hylemonae DSM 15053	Bile acid-coenzyme A ligase (EC 6.2.1.7)	baiB
+fig|553973.6.peg.2106	Clostridium hylemonae DSM 15053	NAD(H)-dependent 7-alpha-hydroxy-3-oxo-delta4-cholenoic acid oxidoreductase	baiCD
+fig|553973.6.peg.2107	Clostridium hylemonae DSM 15053	Bile acid 7-alpha dehydratase (EC 4.2.1.106)	baiE
+fig|553973.6.peg.2108	Clostridium hylemonae DSM 15053	Bile acid CoA-transferase (EC 2.8.3.25)	baiF
+fig|553973.6.peg.2109	Clostridium hylemonae DSM 15053	"Bile acids transporter, MFS family"	baiG
+fig|553973.6.peg.2110	Clostridium hylemonae DSM 15053	NAD(H)-dependent 7-beta-hydroxy-3-oxo-delta4-cholenoic acid oxidoreductase	baiH
+fig|553973.6.peg.2111	Clostridium hylemonae DSM 15053	Bile acid 7-beta-dehydratase	baiI
