@@ -6,6 +6,7 @@ This is the place where we download/build the necessary databases required for [
 - build standard kraken database
 - mask low-complexity regions from the refseq seuqneces and reformat for krakenDB format
 - build krakenHLL database of interests
+- ?metaphlan
 - add custome sequences to krakenDB
 - bsh and bai-operon gene/protein sequences
 - butyrate producing gene/sequences
