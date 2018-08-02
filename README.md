@@ -58,5 +58,10 @@ The bsh genes were selected from the [PMID: 18757757](https://www.ncbi.nlm.nih.g
 
 ### bai operon
 
-I selected the complete bai operon genes from 3 species: Clostridium hiranonis, Clostridium scindens and Clostridium hylemonae. The protein sequences were downloaded from the [PubSEED database](http://pubseed.theseed.org/). Refer to [PMID: 16299351](https://www.ncbi.nlm.nih.gov/pubmed/16299351) and [preprint](https://www.biorxiv.org/content/early/2017/12/04/229138).
+I selected the complete bai operon genes from 3 species: Clostridium hiranonis, Clostridium scindens and Clostridium hylemonae. The protein sequences were downloaded from the [PubSEED database](http://pubseed.theseed.org/), and saved in `dbs/bai.operon_20180801.fasta` and `dbs/bai.operon_20180801.txt`. Refer to [PMID: 16299351](https://www.ncbi.nlm.nih.gov/pubmed/16299351) and [preprint](https://www.biorxiv.org/content/early/2017/12/04/229138) for more information.
+
+### butyrate producing genes
+
+Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the list provided in [PMID: 24757212](https://www.ncbi.nlm.nih.gov/pubmed/?term=Revealing+the+Bacterial+Butyrate+Synthesis+Pathways+by+Analyzing+(Meta)genomic+Data), and saved in `dbs/butyrate_20180612.faa` and `dbs/butyrate_20180612.tsv`.
+
 
