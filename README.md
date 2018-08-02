@@ -40,10 +40,21 @@ snakemake download_group_nucl
 # Second, download the sequences
 snakemake download_group_nucl
 ```
-## output
-The genomes are listed under `{group}/{taxid}/{taxid}.fna.gz`.
+
+The output genomes are listed under `{group}/{accession}.fna.gz` or `{group}/{accession}.faa.gz`.
+
+## Build Kraken database
 
 ```bash
 # Thrid, add seqeucnes to existing kraken db
 snakemake add_group_to_kraken_db
 ```
+
+## Custom databases of interest
+
+### bile salt hydrolase
+
+The bsh genes were selected from the [PMID: 18757757](https://www.ncbi.nlm.nih.gov/pubmed/18757757). The protein sequences were downloaded from NCBI and saved in `dbs/bsh_20180214.txt` and `dbs/bsh_20180214.fasta`.
+
+
+
