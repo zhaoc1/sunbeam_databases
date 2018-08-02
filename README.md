@@ -13,8 +13,10 @@ This is the place where we download/build the necessary databases required for [
 ## Install
 ```sh
 conda install -c bioconda snakemake
-git clone https://github.com/zhaoc1/refseq_kraken
-cd refseq_kraken
+# OR simplyly activate the sunbeam environment
+source activate sunbeam
+git clone https://github.com/zhaoc1/sunbeam_databases
+cd sunbeam_databases
 ```
 
 ## usage
