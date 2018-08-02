@@ -19,7 +19,8 @@ git clone https://github.com/zhaoc1/sunbeam_databases
 cd sunbeam_databases
 ```
 
-## usage
+## Download refseq genomes 
+
 This can be used with any group listed under the genomes/refseq directory, but recommended groups would be:
 
 - barcteria
@@ -27,18 +28,22 @@ This can be used with any group listed under the genomes/refseq directory, but r
 - archaea
 - protozoa
 
-### example
-To download all the fungal refseq genomes:
-```sh
-# First, downloads the list of all the genomes
-snakemake --config group=fungi download_group
+### Example
 
-# Next, actually download the genomes (named by their taxid)
-snakemake --config group=fungi download_group
+To download the nucleotide sequences of all Refseq fungal sequences (update your config file with group: fungi):
 
-# Thrid, add seqeucnes to existing kraken db
-snakemake --config group=fungi add_group_to_kraken_db
+```bash
+# First, downloads the `assembly_summary.txt` from NCBI ftp, and the list of all genomes
+# You can also `grep` the species of interest from the generated `genome_urls.txt`
+snakemake download_group_nucl
+
+# Second, download the sequences
+snakemake download_group_nucl
 ```
-
 ## output
 The genomes are listed under `{group}/{taxid}/{taxid}.fna.gz`.
+
+```bash
+# Thrid, add seqeucnes to existing kraken db
+snakemake add_group_to_kraken_db
+```
