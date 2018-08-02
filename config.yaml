@@ -1,0 +1,4 @@
+group: bacteria
+output_dir: /home/chunyu/database_lockdown
+kraken_db: /home/chunyu/database_lockdown/standard
+
