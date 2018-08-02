@@ -1,4 +1,7 @@
-# refseq_kraken
+# sunbeam_databases
+
+This is the place where we download/build all the necessary databases required for [sunbeam](https://github.com/sunbeam-labs/sunbeam).
+
 Download refseq genomes for a group using Snakemake
 Preprocess refseq sequences for kraken db format
 
