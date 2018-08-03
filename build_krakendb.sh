@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-
 set -e
 
-# Chunyu Zhao
+# this script shows how to build a `standard` kraken1 database, with 
+# manually removing low-complexity sequences
+# Chunyu Zhao 
+# 08-03-2018
 
 # name your database with time stamp
 KRAKEN_DB_NAME=/mnt/isilon/microbiome/analysis/biodata/krakendb/standard_20180803
@@ -22,12 +24,17 @@ kraken-build --db $KRAKEN_DB_NAME --download-library archaea
 
 for i in `find $KRAKEN_DB_NAME \( -name '*.fna' -o -name '*.ffn' \)`
   do
-    dustmasker -in $i -infmt fasta -outfmt fasta | sed -e '/>/!s/a\|c\|g\|t/N/g' > tempfile
-    mv tempfile $i
+    echo $i
+    dustmasker -in $i -infmt fasta -outfmt fasta | sed -e '/>/!s/a\|c\|g\|t/N/g' > /tmp/tempfile
+    mv /tmp/tempfile $i
   done
 
-# add_g
+# add sequences to the database
+find /mnt/isilon/microbiome/analysis/biodata/krakendb/standard_20180803/ -name '*.fna' -print0 | \
+   xargs -0 -I{} -n1 kraken-build --add-to-library {} --db $KRAKEN_DB_NAME
 
 # build the database
-#kraken-build --build --db $KRAKEN_DB_NAME --threads 32 --jellyfish-hash-size 6400M
-#kraken-build --clean --db $KRAKEN_DB_NAME # better to keep the library
+kraken-build --build --db $KRAKEN_DB_NAME --threads 32 --jellyfish-hash-size 6400M
+
+# better keep the library
+#kraken-build --clean --db $KRAKEN_DB_NAME
