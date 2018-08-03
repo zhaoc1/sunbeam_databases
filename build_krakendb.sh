@@ -1,6 +1,10 @@
 #/bin/bash
 set -e
-#set -x
+
+# 20180802: before combat
+# I don't really know if the standard database make the low-complexity region
+# I think I will just build in first and see. before I do the whole thing manually.
+
 
 KRAKEN_DB_NAME="/home/chunyu/krakendb/bacteria"
 
