@@ -1,28 +1,33 @@
-#/bin/bash
+#!/usr/bin/env bash
+
 set -e
 
-# 20180802: before combat
-# I don't really know if the standard database make the low-complexity region
-# I think I will just build in first and see. before I do the whole thing manually.
+# Chunyu Zhao
 
-
-KRAKEN_DB_NAME="/home/chunyu/krakendb/bacteria"
+# name your database with time stamp
+KRAKEN_DB_NAME=/mnt/isilon/microbiome/analysis/biodata/krakendb/standard_20180803
 
 # download data
 kraken-build --db $KRAKEN_DB_NAME --download-taxonomy
 kraken-build --db $KRAKEN_DB_NAME --download-library bacteria
-#kraken-build --db $KRAKEN_DB_NAME --download-library viruses
+kraken-build --db $KRAKEN_DB_NAME --download-library viral
+kraken-build --db $KRAKEN_DB_NAME --download-library plasmid
+kraken-build --db $KRAKEN_DB_NAME --download-library human
+kraken-build --db $KRAKEN_DB_NAME --download-library archaea
 
 
-# filter with Dustmasker and convert low complexity regions to N's with Sed (skipping headers)
+# mask of low-complexity sequences with dustmasker and 
+# convert low complexity regions to N'x with set (skip headers)
+# kraken2 has the option to `mask` by default
+
 for i in `find $KRAKEN_DB_NAME \( -name '*.fna' -o -name '*.ffn' \)`
   do
     dustmasker -in $i -infmt fasta -outfmt fasta | sed -e '/>/!s/a\|c\|g\|t/N/g' > tempfile
     mv tempfile $i
   done
 
-# add_group_to_kraken_db if needed
+# add_g
 
 # build the database
-kraken-build --build --db $KRAKEN_DB_NAME --threads 16 --jellyfish-hash-size 6400M
+#kraken-build --build --db $KRAKEN_DB_NAME --threads 32 --jellyfish-hash-size 6400M
 #kraken-build --clean --db $KRAKEN_DB_NAME # better to keep the library
