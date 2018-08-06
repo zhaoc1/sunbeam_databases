@@ -11,6 +11,7 @@ This is the place where we download/build the necessary databases required for [
 - bsh and bai-operon gene/protein sequences
 - butyrate producing gene/sequences
 - [eupathdb-clean](https://ccb.jhu.edu/data/eupathDB/)
+- R package [taxonomizr](https://github.com/sherrillmix/taxonomizr) database
 
 ## Install
 ```sh
