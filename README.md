@@ -10,6 +10,7 @@ This is the place where we download/build the necessary databases required for [
 - add custome sequences to krakenDB
 - bsh and bai-operon gene/protein sequences
 - butyrate producing gene/sequences
+- [eupathdb-clean](https://ccb.jhu.edu/data/eupathDB/)
 
 ## Install
 ```sh
