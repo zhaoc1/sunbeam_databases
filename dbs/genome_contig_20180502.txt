@@ -1,0 +1,254 @@
+genome	contig	length	genome_name	strain_name
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605209.1	957321	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605208.1	1789679	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605207.1	962442	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605206.1	3023470	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605205.1	2091826	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605204.1	1039767	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605203.1	2235583	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605202.1	898305	Candida parapsilosis	Candida parapsilosis
+GCA_000182765.2_ASM18276v2_genomic.fna	HE605210.1	31781	Candida parapsilosis	Candida parapsilosis
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007194.1	4918979	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007195.1	4844472	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007196.1	4079167	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007197.1	3923705	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007198.1	3948441	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007199.1	3778736	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007200.1	2058334	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000002655.1_ASM265v1_genomic.fna	NC_007201.1	1833124	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101575.1	1787903	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101577.1	2215196	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101573.1	814710	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101572.1	779898	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101574.1	1456586	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101578.1	2423571	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101576.1	1874050	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101571.1	744036	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000003835.1_ASM383v1_genomic.fna	NW_003101579.1	18942	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020038.1	2474448	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020049.1	2308670	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020055.1	2216334	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020056.1	1654078	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020057.1	1368217	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020058.1	1255791	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020059.1	920995	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020060.1	802573	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020061.1	498422	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020039.1	430102	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020040.1	419327	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020041.1	125861	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020042.1	22644	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020043.1	12816	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020044.1	11214	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020045.1	11104	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020046.1	8471	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020047.1	8448	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020048.1	7285	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020050.1	6389	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020051.1	6342	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020052.1	5408	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020053.1	4896	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000006335.3_ASM633v3_genomic.fna	NW_003020054.1	50304	Candida tropicalis	Candida tropicalis MYA-3404
+GCF_000146045.2_R64_genomic.fna	NC_001133.9	230218	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001134.8	813184	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001135.5	316620	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001136.10	1531933	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001137.3	576874	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001138.5	270161	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001139.9	1090940	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001140.6	562643	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001141.2	439888	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001142.9	745751	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001143.9	666816	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001144.5	1078177	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001145.3	924431	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001146.8	784333	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001147.6	1091291	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001148.4	948066	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000146045.2_R64_genomic.fna	NC_001224.1	85779	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_000149245.1_CNA3_genomic.fna	NC_026745.1	2291499	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026746.1	1621675	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026747.1	1575141	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026748.1	1084805	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026749.1	1814975	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026750.1	1422463	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026751.1	1399503	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026752.1	1398693	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026753.1	1186808	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026754.1	1059964	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026755.1	1561994	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026756.1	774062	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026757.1	756744	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_026758.1	942867	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000149245.1_CNA3_genomic.fna	NC_018792.1	24919	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032089.1	3188341	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032090.1	2231883	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032091.1	1799298	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032092.1	1603259	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032093.1	1190845	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032094.1	1033292	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032095.1	949511	Candida albicans	Candida albicans SC5314
+GCF_000182965.3_ASM18296v3_genomic.fna	NC_032096.1	2286237	Candida albicans	Candida albicans SC5314
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040923.1	2953	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040922.1	971331	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040921.1	859245	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040920.1	708683	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040919.1	629653	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040918.1	245506	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040917.1	2500	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040916.1	559697	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040915.1	1745186	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040914.1	152182	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040913.1	2736	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040912.1	2774	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040911.1	3886	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040910.1	2169	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040909.1	257356	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040908.1	2331	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040907.1	831147	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040906.1	1581664	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040905.1	2859	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040904.1	452366	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040903.1	2256	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040902.1	2316	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040901.1	3523	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040900.1	4350	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040899.1	388124	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040898.1	4337	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040897.1	4199	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040896.1	3477	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040895.1	2521	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040894.1	2338	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040893.1	2381	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040892.1	2040	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040891.1	2929	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040890.1	2373	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040889.1	342956	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040888.1	3659	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040887.1	2388	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040886.1	432815	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040885.1	3069	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040884.1	42492	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040883.1	4120	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040882.1	2400	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040881.1	3480	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040880.1	3487	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040879.1	2241	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040878.1	2966	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040877.1	3110	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040876.1	346078	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040875.1	2299	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040874.1	3220982	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040873.1	1792458	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040872.1	2500	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040871.1	235749	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040870.1	261709	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040869.1	2974	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040868.1	1162070	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040867.1	2181	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040866.1	3157	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040865.1	2841	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040864.1	3658	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040863.1	2472	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040862.1	3210	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040861.1	3130	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040860.1	2420	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040859.1	86233	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040858.1	2835	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040857.1	3283	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040856.1	3736	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040855.1	2669337	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040854.1	1660894	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040853.1	2126	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040852.1	2271	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040851.1	2792	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040850.1	2574780	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040849.1	2195	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040848.1	152651	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040847.1	2151	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	NW_014040924.1	32568	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036025.1	1745387	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036026.1	1711476	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036027.1	1588169	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036028.1	1421472	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036029.1	1353011	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036030.1	1197921	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036031.1	963005	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036032.1	939718	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001417885.1_Kmar_1.0_genomic.fna	NC_036023.1	46308	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963652.1	1920980	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963653.1	1287043	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963654.1	1168136	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963655.1	1026931	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963656.1	728740	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963657.1	700888	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963658.1	559626	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963659.1	530739	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963660.1	497619	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963661.1	443799	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963662.1	427184	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963663.1	412519	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963664.1	408295	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963665.1	328414	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963666.1	293672	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963667.1	242554	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963668.1	231665	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963669.1	215405	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963670.1	199374	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963671.1	140667	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963672.1	147198	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963673.1	138598	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963674.1	147686	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963675.1	130859	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963676.1	116615	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963677.1	94575	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963678.1	85838	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963679.1	62638	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963680.1	67702	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963681.1	30091	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963682.1	22172	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963683.1	20876	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963684.1	20153	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963685.1	15353	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963686.1	15038	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963687.1	12785	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963688.1	11388	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963689.1	8584	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963690.1	10789	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963691.1	6769	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963692.1	6685	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963693.1	5689	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963694.1	5447	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963695.1	4980	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963696.1	4838	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963697.1	4869	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963698.1	2789	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963699.1	4119	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963700.1	3665	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963701.1	3203	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963702.1	3075	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963703.1	2868	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963704.1	2596	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963705.1	2558	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963706.1	2093	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963707.1	2055	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963708.1	1800	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963709.1	1803	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963710.1	1842	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963711.1	1546	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963712.1	1542	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963713.1	1490	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963714.1	1410	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963715.1	1409	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963716.1	1409	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963717.1	1348	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963718.1	1300	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963719.1	1243	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963720.1	1195	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963721.1	1126	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963722.1	1132	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963723.1	1125	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963724.1	1115	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963725.1	1017	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963726.1	1058	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_001661405.1_Cybja1_genomic.fna	NW_017963727.1	1019	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542

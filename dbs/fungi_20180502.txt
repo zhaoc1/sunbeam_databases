@@ -1,0 +1,10 @@
+GCF_000182965.3_ASM18296v3_genomic.fna	Candida albicans	Candida albicans SC5314
+GCF_000146045.2_R64_genomic.fna	Saccharomyces cerevisiae	Saccharomyces cerevisiae S288C
+GCF_001661405.1_Cybja1_genomic.fna	Cyberlindnera jadinii	Cyberlindnera jadinii NRRL Y-1542
+GCF_000003835.1_ASM383v1_genomic.fna	Clavispora lusitaniae	Clavispora lusitaniae ATCC 42720
+GCF_001417885.1_Kmar_1.0_genomic.fna	Kluyveromyces marxianus	Kluyveromyces marxianus DMKU3-1042
+GCF_000293215.1_Trichosporon_asahii_1_genomic.fna	Trichosporon asahii	Trichosporon asahii var. asahii CBS 2479
+GCF_000006335.3_ASM633v3_genomic.fna	Candida tropicalis	Candida tropicalis MYA-3404
+GCA_000182765.2_ASM18276v2_genomic.fna	Candida parapsilosis	Candida parapsilosis
+GCF_000002655.1_ASM265v1_genomic.fna	Aspergillus fumigatus	Aspergillus fumigatus Af293
+GCF_000149245.1_CNA3_genomic.fna	Cryptococcus neoformans	Cryptococcus neoformans var. grubii H99
