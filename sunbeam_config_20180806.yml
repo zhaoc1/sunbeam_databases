@@ -1,0 +1,91 @@
+# 
+# Sunbeam configuration file
+#
+# Defining samples:
+#   Run 'sunbeam list_samples <data_dir>' to create a list of samples and
+#   associated fastq.gz files. Samples must be in gzipped fastq format.
+#
+# Paths:
+#   Paths are resolved through the following rules:
+#     1. If the path is absolute, the path is parsed as-is
+#     2. If the path is not absolute, the path at 'root' is appended to it
+#     3. If the path is not 'output_fp', the path is checked to ensure it exists
+#
+# Suffixes:
+#   Each subsection contains a 'suffix' key that defines the folder under
+#   'output_fp' where the results of that section are put.
+#
+
+# General options
+all:
+  root: "/scr1/users/username/project/dir"
+  output_fp: "sunbeam_output"
+  samplelist_fp: "samples.csv"
+  paired_end: true
+  version: "1.2.3+dev17.g96d9847"
+
+# Quality control
+qc:
+  suffix: qc
+  # Trimmomatic
+  threads: 4
+  java_heapsize: 512M
+  leading: 3
+  trailing: 3
+  slidingwindow: [4,15]
+  minlen: 36
+  adapter_fp: "/scr1/users/username/miniconda3/envs/sunbeam/share/trimmomatic/adapters/NexteraPE-PE.fa"
+  # Cutadapt
+  fwd_adapters: []
+  rev_adapters: []
+  # Komplexity
+  kz_threshold: 0.55
+  # Decontam.py
+  pct_id: 0.5
+  frac: 0.6
+  host_fp: "/mnt/isilon/microbiome/analysis/biodata/hosts"
+
+
+# Taxonomic classifications
+classify:
+  suffix: classify
+  threads: 4
+  kraken_db_fp: "/mnt/isilon/microbiome/analysis/biodata/krakendb/standard_20180803"
+
+
+# Contig assembly
+assembly:
+  suffix: assembly
+  min_length: 1000
+  threads: 4
+
+# Contig annotation
+annotation:
+  suffix: annotation
+  min_contig_len: 1000
+  circular_kmin: 10
+  circular_kmax: 1000
+  circular_min_len: 3500
+  
+blast:
+  threads: 8
+
+blastdbs:
+  root_fp: "/mnt/isilon/microbiome/analysis/biodata/blast"
+  nucleotide:
+    bacteria:
+      bacteria_genomes_20180803/bacteria_20180803.fasta
+  protein:
+    card:
+      card/protein_fasta_protein_homolog_model.fasta
+
+mapping:
+  suffix: mapping
+  genomes_fp: "/mnt/isilon/microbiome/analysis/biodata/bwa/fungi_20180502"
+  samtools_opts: "-F4"
+  threads: 4
+  igv_prefs: {ENABLE_ANTIALIASING: true, NAME_PANEL_WIDTH: 360, SAM.MAX_VISIBLE_RANGE: 1000}
+
+sbx_gene_clusters:
+  threads: 8
+  genes_fp: /scr1/users/zhaoc1/sunbeam_databases/dbs
