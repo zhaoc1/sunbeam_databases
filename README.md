@@ -68,7 +68,7 @@ snakemake add_group_to_kraken_db
 
 ## Gene families databases of interest
 
-- [sbx_gene_clusters]
+- [sbx_gene_clusters](https://github.com/sunbeam-labs/sbx_gene_clusters)
 
 ### bile salt hydrolase
 
