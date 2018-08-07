@@ -1,23 +1,34 @@
 # sunbeam_databases
 
-This is the place where we download/build the necessary databases required for [sunbeam](https://github.com/sunbeam-labs/sunbeam). 
+This is the place where we download/build/collect the necessary databases required for [sunbeam](https://github.com/sunbeam-labs/sunbeam). 
 
 - download refseq genomes for a group using Snakemake
+- mask low-complexity regions from the refseq sequences
+- reformat maked sequences for krakenDB format
+- add custom sequences to krakenDB
 - build standard kraken database
-- mask low-complexity regions from the refseq seuqneces and reformat for krakenDB format
 - build krakenHLL database of interests
 - ?metaphlan
-- add custome sequences to krakenDB
+
+Databases of gene families of interest:
 - bsh and bai-operon gene/protein sequences
 - butyrate producing gene/sequences
+- 10 fungal genomes
 - [eupathdb-clean](https://ccb.jhu.edu/data/eupathDB/)
 - R package [taxonomizr](https://github.com/sherrillmix/taxonomizr) database
 
 ## Install
-```sh
+```bash
 conda install -c bioconda snakemake
-# OR simplyly activate the sunbeam environment
+```
+
+OR simplyly activate the [sunbeam](https://github.com/sunbeam-labs/sunbeam) environment
+```bash
 source activate sunbeam
+```
+
+Make a local copy of the repository
+```bash
 git clone https://github.com/zhaoc1/sunbeam_databases
 cd sunbeam_databases
 ```
@@ -55,7 +66,7 @@ The output genomes are listed under `{group}/{accession}.fna.gz` or `{group}/{ac
 snakemake add_group_to_kraken_db
 ```
 
-## Custom databases of interest
+## Gene families databases of interest
 
 ### bile salt hydrolase
 
@@ -69,3 +80,6 @@ I selected the complete bai operon genes from 3 species: Clostridium hiranonis, 
 
 Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the list provided in [PMID: 24757212](https://www.ncbi.nlm.nih.gov/pubmed/?term=Revealing+the+Bacterial+Butyrate+Synthesis+Pathways+by+Analyzing+(Meta)genomic+Data), and saved in `dbs/butyrate_20180612.faa` and `dbs/butyrate_20180612.tsv`.
 
+### fungal genomes 
+
+We collected 10 fungal genomes of interest (`dbs/fungi_20180502.txt`), and names and length of the chrmosomes/contigs are in `dbs/genome_contig_20180502.txt`.
