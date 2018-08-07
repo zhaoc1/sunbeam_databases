@@ -68,6 +68,8 @@ snakemake add_group_to_kraken_db
 
 ## Gene families databases of interest
 
+- [sbx_gene_clusters]
+
 ### bile salt hydrolase
 
 The bsh genes were selected from the [PMID: 18757757](https://www.ncbi.nlm.nih.gov/pubmed/18757757). The protein sequences were downloaded from NCBI and saved in `dbs/bsh_20180214.txt` and `dbs/bsh_20180214.fasta`.
@@ -81,5 +83,7 @@ I selected the complete bai operon genes from 3 species: Clostridium hiranonis, 
 Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the list provided in [PMID: 24757212](https://www.ncbi.nlm.nih.gov/pubmed/?term=Revealing+the+Bacterial+Butyrate+Synthesis+Pathways+by+Analyzing+(Meta)genomic+Data), and saved in `dbs/butyrate_20180612.faa` and `dbs/butyrate_20180612.tsv`.
 
 ### fungal genomes 
+
+- [sbx_fungi_mapping](https://github.com/sunbeam-labs/sbx_fungi_mapping)
 
 We collected 10 fungal genomes of interest (`dbs/fungi_20180502.txt`), and names and length of the chrmosomes/contigs are in `dbs/genome_contig_20180502.txt`.
