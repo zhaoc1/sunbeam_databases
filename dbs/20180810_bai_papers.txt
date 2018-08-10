@@ -1,0 +1,12 @@
+bai gene cluster
+
+Clostridium scindens ATCC 35704	PMID: 16299351
+
+
+Eggerthella lenta DSM 2243	PMID: 26192599 
+Ruminococcus gnavus ATCC 29149	PMID: 26192599 
+
+
+Clostridium hiranonis DSM 13275	doi: https://doi.org/10.1101/229138
+Clostridium hylemonae DSM 15053	doi: https://doi.org/10.1101/229138
+Eggerthella sp. 1_3_56FAA	doi: https://doi.org/10.1101/229138
