@@ -87,3 +87,13 @@ Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the
 - [sbx_fungi_mapping](https://github.com/sunbeam-labs/sbx_fungi_mapping)
 
 We collected 10 fungal genomes of interest (`dbs/fungi_20180502.txt`), and names and length of the chrmosomes/contigs are in `dbs/genome_contig_20180502.txt`.
+
+## Build krakenHLL databases
+
+### 
+
+  ```bash
+  DBNAME=viral-neighbors
+  krakenhll-download -db $DBNAME taxonomy
+  krakenhll-download viral-neighbors --db $DBNAME --dust --threads 16
+  ```
