@@ -2,7 +2,7 @@
 
 This is the place where we download/build/collect the necessary databases required for [sunbeam](https://github.com/sunbeam-labs/sunbeam). 
 
-TODO
+TODO:
 - [metaphlan](https://github.com/sunbeam-labs/sbx_metaphlan)
 - [eupathdb-clean](https://ccb.jhu.edu/data/eupathDB/)
 
@@ -61,9 +61,9 @@ The bash script includes the following steps:
 bash build_krakendb.sh
 ```
 
-## Gene clusters databases of interest
+## Gene clusters of interest
 
-We do the functional prediction based on sequence homology 
+We do the functional prediction from shotgun metagenomics data based on sequence homology, on both the reads and contigs level.
 
 - [sbx_gene_clusters](https://github.com/sunbeam-labs/sbx_gene_clusters)
 - [sbx_contigs](https://github.com/sunbeam-labs/sbx_contigs)
@@ -86,12 +86,12 @@ Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the
 
 We collected 10 fungal genomes of interest (`dbs/fungi_20180502.txt`), and names and length of the chrmosomes/contigs are in `dbs/genome_contig_20180502.txt`.
 
+
 ## Build [krakenHLL](https://github.com/fbreitwieser/krakenhll) databases
 
 ### viral-neighbors
 
 KrakenHLL supports building databases on subsets of the NCBI nucleotide collection nr/nt, which is most prominently the standard database for BLASTn. On the command line, you can specify to extract all bacterial, viral, archaeal, protozoan, fungal and helminth sequences. The list of protozoan taxa is based on Kaiju's.
-
 
   ```bash
   DBNAME=viral-neighbors
