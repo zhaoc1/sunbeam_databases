@@ -2,22 +2,11 @@
 
 This is the place where we download/build/collect the necessary databases required for [sunbeam](https://github.com/sunbeam-labs/sunbeam). 
 
-- download refseq genomes for a group using Snakemake
-- mask low-complexity regions from the refseq sequences
-- reformat maked sequences for krakenDB format
-- add custom sequences to krakenDB
-- build standard kraken database
-- build krakenHLL database of interests
-- ?metaphlan
-
-Databases of gene families of interest:
-- bsh and bai-operon gene/protein sequences
-- butyrate producing gene/sequences
-- 10 fungal genomes
+TODO
+- [metaphlan](https://github.com/sunbeam-labs/sbx_metaphlan)
 - [eupathdb-clean](https://ccb.jhu.edu/data/eupathDB/)
-- R package [taxonomizr](https://github.com/sherrillmix/taxonomizr) database
 
-## Install
+## Install environment
 ```bash
 conda install -c bioconda snakemake
 ```
@@ -42,6 +31,8 @@ This can be used with any group listed under the genomes/refseq directory, but r
 - archaea
 - protozoa
 
+The downloaded database will be used for BLASTn assembled [contigs](https://github.com/sunbeam-labs/sunbeam/blob/dev/rules/annotation/blast.rules). 
+
 ### Example
 
 To download the nucleotide sequences of all Refseq fungal sequences (update your config file with group: fungi):
@@ -57,17 +48,25 @@ snakemake download_group_nucl
 
 The output genomes are listed under `{group}/{accession}.fna.gz` or `{group}/{accession}.faa.gz`.
 
-## Build Kraken database
+## Build [Kraken 1]((http://ccb.jhu.edu/software/kraken/)) database
 
-- [kraken2](https://ccb.jhu.edu/software/kraken/MANUAL.html#installation) paper is under preparation. And to keep it consistent with [krakenhll](https://github.com/fbreitwieser/krakenhll), we decided to move on with [kraken1](http://ccb.jhu.edu/software/kraken/). 
+The bash script includes the following steps:
+- mask low-complexity regions from the refseq sequences
+- reformat maked sequences for krakenDB format
+- add custom sequences to krakenDB
+
+- [kraken2](https://ccb.jhu.edu/software/kraken/MANUAL.html#installation) paper is under preparation. And to keep it consistent with krakenhll, we decided to move on with kraken1. 
 
 ```bash
 bash build_krakendb.sh
 ```
 
-## Gene families databases of interest
+## Gene clusters databases of interest
+
+We do the functional prediction based on sequence homology 
 
 - [sbx_gene_clusters](https://github.com/sunbeam-labs/sbx_gene_clusters)
+- [sbx_contigs](https://github.com/sunbeam-labs/sbx_contigs)
 
 ### bile salt hydrolase
 
@@ -87,12 +86,41 @@ Sequences were downloaded from [JGI IMG](https://img.jgi.doe.gov/), based on the
 
 We collected 10 fungal genomes of interest (`dbs/fungi_20180502.txt`), and names and length of the chrmosomes/contigs are in `dbs/genome_contig_20180502.txt`.
 
-## Build krakenHLL databases
+## Build [krakenHLL](https://github.com/fbreitwieser/krakenhll) databases
 
-### 
+### viral-neighbors
+
+KrakenHLL supports building databases on subsets of the NCBI nucleotide collection nr/nt, which is most prominently the standard database for BLASTn. On the command line, you can specify to extract all bacterial, viral, archaeal, protozoan, fungal and helminth sequences. The list of protozoan taxa is based on Kaiju's.
+
 
   ```bash
   DBNAME=viral-neighbors
   krakenhll-download -db $DBNAME taxonomy
   krakenhll-download viral-neighbors --db $DBNAME --dust --threads 16
   ```
+
+### microbial-nt
+  
+  ```bash
+  DBNAME=microbial-nt
+  krakenhll-download -db $DBNAME taxonomy
+  krakenhll-download --db DB --taxa "archaea,bacteria,viral,fungi,protozoa,helminth" \
+                     --dust --exclude-environmental-taxa nt
+  ```
+  
+## Build [taxonomizr]((https://github.com/sherrillmix/taxonomizr)) databases
+
+Parse NCBI taxonomy and accessions to assign taxonomy.
+
+  ```R
+  devtools::install_github("sherrillmix/taxonomizr")
+
+  library(taxonomizr)
+ 
+  getNamesAndNodes()
+  getAccession2taxid()
+  getAccession2taxid(types='prot')
+  
+  # on microb120
+  read.accession2taxid(list.files('.','accession2taxid.gz$'),'accessionTaxa_20180813.sql')
+ ```
