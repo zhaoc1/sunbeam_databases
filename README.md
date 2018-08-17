@@ -80,15 +80,6 @@ KrakenHLL supports building databases on subsets of the NCBI nucleotide collecti
   krakenhll-download -db $DBNAME taxonomy
   krakenhll-download viral-neighbors --db $DBNAME --dust --threads 16
   ```
-
-### microbial-nt
-  
-  ```bash
-  DBNAME=microbial-nt
-  krakenhll-download -db $DBNAME taxonomy
-  krakenhll-download --db DB --taxa "archaea,bacteria,viral,fungi,protozoa,helminth" \
-                     --dust --exclude-environmental-taxa nt
-  ```
   
 ## Build [taxonomizr]((https://github.com/sherrillmix/taxonomizr)) databases
 
