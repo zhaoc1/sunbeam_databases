@@ -3,7 +3,6 @@
 This is the place where we download/build/collect the necessary databases required for [sunbeam](https://github.com/sunbeam-labs/sunbeam). 
 
 TODO:
-- [metaphlan](https://github.com/sunbeam-labs/sbx_metaphlan)
 - [eupathdb-clean](https://ccb.jhu.edu/data/eupathDB/)
 
 ## Install environment
@@ -107,6 +106,17 @@ Parse NCBI taxonomy and accessions to assign taxonomy.
   # on microb120
   read.accession2taxid(list.files('.','accession2taxid.gz$'),'accessionTaxa_20180813.sql')
  ```
+
+## Metaphlan2 database
+
+- [sbx_metaphlan](https://github.com/sunbeam-labs/sbx_metaphlan)
+
+Respublica doesn't have network access to Bitbucket, so I pre-downloaded the metaphlan_databases on microb191 (```metaphlan2.py --install ```) and scp it to `/mnt/isilon/microbiome/analysis/biodata/metaphlan_databases`.
+
+  ```bash
+  DIR=$CONDA_PREFIX/opt
+  cp -r /mnt/isilon/microbiome/analysis/biodata/metaphlan_databases $DIR
+  ```
 
 ## Download refseq genomes 
 
