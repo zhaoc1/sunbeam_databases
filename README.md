@@ -22,31 +22,14 @@ git clone https://github.com/zhaoc1/sunbeam_databases
 cd sunbeam_databases
 ```
 
-## Download refseq genomes 
+## Download BLAST databases 
 
-This can be used with any group listed under the genomes/refseq directory, but recommended groups would be:
+The downloaded nt database will be used for BLASTn assembled [contigs](https://github.com/sunbeam-labs/sunbeam/blob/dev/rules/annotation/blast.rules). 
 
-- barcteria
-- fungi
-- archaea
-- protozoa
-
-The downloaded database will be used for BLASTn assembled [contigs](https://github.com/sunbeam-labs/sunbeam/blob/dev/rules/annotation/blast.rules). 
-
-### Example
-
-To download the nucleotide sequences of all Refseq fungal sequences (update your config file with group: fungi):
-
-```bash
-# First, downloads the `assembly_summary.txt` from NCBI ftp, and the list of all genomes
-# You can also `grep` the species of interest from the generated `genome_urls.txt`
-snakemake download_group_nucl
-
-# Second, download the sequences
-snakemake download_group_nucl
-```
-
-The output genomes are listed under `{group}/{accession}.fna.gz` or `{group}/{accession}.faa.gz`.
+  ```bash
+  mkdir nt_20180816
+  update_blastdb.pl --passive --decompress nt
+  ```
 
 ## Build [Kraken 1]((http://ccb.jhu.edu/software/kraken/)) database
 
@@ -124,3 +107,27 @@ Parse NCBI taxonomy and accessions to assign taxonomy.
   # on microb120
   read.accession2taxid(list.files('.','accession2taxid.gz$'),'accessionTaxa_20180813.sql')
  ```
+
+## Download refseq genomes 
+
+This can be used with any group listed under the genomes/refseq directory, but recommended groups would be:
+
+- barcteria
+- fungi
+- archaea
+- protozoa
+
+### Example
+
+To download the nucleotide sequences of all Refseq fungal sequences (update your config file with group: fungi):
+
+```bash
+# First, downloads the `assembly_summary.txt` from NCBI ftp, and the list of all genomes
+# You can also `grep` the species of interest from the generated `genome_urls.txt`
+snakemake download_group_nucl
+
+# Second, download the sequences
+snakemake download_group_nucl
+```
+
+The output genomes are listed under `{group}/{accession}.fna.gz` or `{group}/{accession}.faa.gz`.
