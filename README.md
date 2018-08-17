@@ -71,6 +71,8 @@ We collected 10 fungal genomes of interest (`dbs/fungi_20180502.txt`), and names
 
 ## Build [krakenHLL](https://github.com/fbreitwieser/krakenhll) databases
 
+- [sbx_krakenhll](https://github.com/sunbeam-labs/sbx_krakenhll)
+
 ### viral-neighbors
 
 KrakenHLL supports building databases on subsets of the NCBI nucleotide collection nr/nt, which is most prominently the standard database for BLASTn. On the command line, you can specify to extract all bacterial, viral, archaeal, protozoan, fungal and helminth sequences. The list of protozoan taxa is based on Kaiju's.
